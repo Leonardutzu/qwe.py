@@ -35,7 +35,6 @@ async def kick(ctx, member : discord.Member, *, reason = None):
 	await member.kick(reason=reason)
 	await ctx.send(f'Utilizatorul {member.mention} a fost dat afara')
 
-#Mute cmd
 
 
 #The below code runs the bot.
